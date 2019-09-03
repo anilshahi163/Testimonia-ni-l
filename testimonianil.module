@@ -1,0 +1,16 @@
+<?php
+/**
+* Implements hook_theme().
+*/
+function testimonianil_theme() {
+	$path_to_templates = drupal_get_path('module', 'testimonianil') . '/templates';
+
+	return [
+		'ap_quotes_block' => [
+			'variables' => [
+				'nodes' => null
+			],
+			'path' => $path_to_templates . '/block'
+		]
+	];
+}

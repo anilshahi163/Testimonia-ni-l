@@ -1,0 +1,14 @@
+
+testimonianil_libraries:
+  version: VERSION
+  css:
+    theme:
+      css/bootstrap.min.css: {}
+      css/quotes.css: {}
+  js:
+    js/bootstrap.min.js: {}
+    js/quotes.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal
+    - core/drupalSettings

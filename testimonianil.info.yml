@@ -1,0 +1,8 @@
+name: 'Testimonia_ni_l'
+type: module
+description: 'Adding custom blocks for the testimonial sliders.'
+core: 8.x
+package: 'Anchorpoints Modules'
+version: 1.x
+dependencies:
+  - drupal:block
